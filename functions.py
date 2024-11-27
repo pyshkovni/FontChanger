@@ -3,11 +3,11 @@
 # TODO - import <зависимость из задания>
 
 
-def func1(n):
+def _to_tuple(l):
     """Функция 1"""
-    pass
+    return tuple(l)
 
 
-def func2(n):
+def multiply(n):
     """Функция 2"""
-    pass
+    return _to_tuple*2
