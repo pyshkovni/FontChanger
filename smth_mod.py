@@ -10,4 +10,5 @@ def _to_tuple(l):
 
 def multiply(n):
     """Функция 2"""
-    return _to_tuple*2
+    with open("file_name.txt", "w") as f:
+        f.write(str(_to_tuple(n)*2))
